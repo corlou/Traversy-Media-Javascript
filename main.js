@@ -15,18 +15,25 @@ console.log(hello);*/
 
 //Arrays  - variables that hold multiple values
 
-const person = {
-    firstName: "John",
-    lastName: "Smith",
-    age: 30,
-    hobbies: ["music", "movies", "sports"],
-    address: {
-        street: "50 Main St",
-        city: "Boston",
-        state: "MA"
+//Array of To Dos, note that Arrays use []
+
+const todos = [
+    {
+        id: 1,
+        text: "Take out trash",
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: "Meeting with boss",
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: "Dentist appointment",
+        isCompleted: false
     }
-}
+];
 
-const { firstName, lastName, address: { city }} = person;
-
-console.log(city);
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
