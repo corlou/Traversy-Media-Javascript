@@ -27,4 +27,6 @@ const person = {
     }
 }
 
-console.log(person.address.city);
+const { firstName, lastName, address: { city }} = person;
+
+console.log(city);
