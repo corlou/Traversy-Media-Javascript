@@ -15,12 +15,16 @@ console.log(hello);*/
 
 //Arrays  - variables that hold multiple values
 
-const fruits = ["apples", "oranges", "pears"];
+const person = {
+    firstName: "John",
+    lastName: "Smith",
+    age: 30,
+    hobbies: ["music", "movies", "sports"],
+    address: {
+        street: "50 Main St",
+        city: "Boston",
+        state: "MA"
+    }
+}
 
-fruits[3] = "grapes";
-
-fruits.push("mangos");
-
-fruits.unshift("strawberries");
-
-console.log(fruits);
+console.log(person.address.city);
