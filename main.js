@@ -19,13 +19,12 @@ console.log(hello);*/
 
 //Conditionals
 
-const x = 4;
+//Ternary Operator = shorthand "if" statement and used a lot to assign variables based on a condition
 
+// ? represents the ternary operator
 
-if(x === 10) {
-    console.log('x is 10');
-} else if(x > 10) {
-    console.log('x is greater than 10');
-} else {
-    console.log('x is less than 10');
-}
+const x = 10;
+
+const color = x > 10 ? 'red' : 'blue';
+
+console.log(color);
