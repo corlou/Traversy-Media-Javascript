@@ -37,8 +37,10 @@ const todos = [
 
 //forEach, map, filter
 
-const todoText = todos.map(function(todo) {
+const todoCompleted = todos.filter(function(todo) {
+   return todo.isCompleted === true;
+}).map(function(todo) {
     return todo.text;
-});
+})
 
-console.log(todoText);
+console.log(todoCompleted);
