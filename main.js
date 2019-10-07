@@ -35,7 +35,8 @@ const todos = [
     }
 ];
 
-//For loops
-for(let todo of todos) {
-console.log(todo.text);
-}
+//forEach, map, filter
+
+todos.forEach(function(todo) {
+    console.log(todo.text)
+});
