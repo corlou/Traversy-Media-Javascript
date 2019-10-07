@@ -17,30 +17,15 @@ console.log(hello);*/
 
 //Array of To Dos, note that Arrays use []
 
-const todos = [
-    {
-        id: 1,
-        text: "Take out trash",
-        isCompleted: true
-    },
-    {
-        id: 2,
-        text: "Meeting with boss",
-        isCompleted: true
-    },
-    {
-        id: 3,
-        text: "Dentist appointment",
-        isCompleted: false
-    }
-];
+//Conditionals
 
-//forEach, map, filter
+const x = 4;
 
-const todoCompleted = todos.filter(function(todo) {
-   return todo.isCompleted === true;
-}).map(function(todo) {
-    return todo.text;
-})
 
-console.log(todoCompleted);
+if(x === 10) {
+    console.log('x is 10');
+} else if(x > 10) {
+    console.log('x is greater than 10');
+} else {
+    console.log('x is less than 10');
+}
