@@ -37,6 +37,8 @@ const todos = [
 
 //forEach, map, filter
 
-todos.forEach(function(todo) {
-    console.log(todo.text)
+const todoText = todos.map(function(todo) {
+    return todo.text;
 });
+
+console.log(todoText);
