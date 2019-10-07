@@ -23,18 +23,8 @@ console.log(hello);*/
 
 // ? represents the ternary operator
 
-const x = 9;
-
-const color =  'green';
-
-switch(color) {
-    case 'red':
-        console.log('color is red');
-        break;
-    case 'blue':
-        console.log('color is blue');
-        break;
-    default:
-        console.log('color is NOT red or blue');
-        break;
+function addNums(num1 = 1, num2 = 1) {
+    return num1 + num2;
 }
+
+console.log(addNums(5, 5));
