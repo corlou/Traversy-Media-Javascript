@@ -23,8 +23,6 @@ console.log(hello);*/
 
 // ? represents the ternary operator
 
-function addNums(num1 = 1, num2 = 1) {
-    return num1 + num2;
-}
+const addNums = num1 => num1 + 5;
 
-console.log(addNums(5, 5));
+console.log(addNums(5));
