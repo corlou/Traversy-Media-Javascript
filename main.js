@@ -25,7 +25,7 @@ console.log(hello);*/
 
 // Class
 class Person {
-    constructor(dirstName, lastName, dob) {
+    constructor(firstName, lastName, dob) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dob = new Date(dob);
